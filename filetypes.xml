@@ -5,6 +5,7 @@
       <mapping pattern="dev" type="JSON" />
       <mapping pattern="CoupleCmd" type="JSON" />
       <mapping pattern="SEI_CaseParmConfig_common_test_pc" type="PLAIN_TEXT" />
+      <mapping ext="in" type="PLAIN_TEXT" />
       <mapping ext="pyx" type="PLAIN_TEXT" />
       <mapping ext="npy" type="PLAIN_TEXT" />
       <mapping ext="spec" type="PLAIN_TEXT" />
