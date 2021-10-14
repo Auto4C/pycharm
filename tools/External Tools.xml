@@ -167,4 +167,11 @@
       <option name="WORKING_DIRECTORY" value="$FileDir$" />
     </exec>
   </tool>
+  <tool name="pyinstaller-local-F-ico+" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$PyInterpreterDirectory$\Scripts\pyinstaller.exe" />
+      <option name="PARAMETERS" value="-w -y -i $FileDir$\ico.ico -p $FileDir$ $FileName$ --onefile" />
+      <option name="WORKING_DIRECTORY" value="$FileDir$" />
+    </exec>
+  </tool>
 </toolSet>
