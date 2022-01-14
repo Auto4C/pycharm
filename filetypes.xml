@@ -10,7 +10,6 @@
       <mapping ext="pyx" type="PLAIN_TEXT" />
       <mapping ext="npy" type="PLAIN_TEXT" />
       <mapping ext="spec" type="PLAIN_TEXT" />
-      <mapping ext="txt" type="PLAIN_TEXT" />
       <removed_mapping ext="pyx" approved="true" type="Cython" />
       <mapping ext="txt" type="requirements-pro.txt" />
     </extensionMap>
