@@ -83,10 +83,10 @@
       <option name="WORKING_DIRECTORY" value="$FileDir$" />
     </exec>
   </tool>
-  <tool name="pyinstaller-local" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="pyinstaller-local-requirements" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="$PyInterpreterDirectory$\Scripts\pyinstaller.exe" />
-      <option name="PARAMETERS" value="-y -w -p $FileDir$ $FileName$" />
+      <option name="COMMAND" value="$PyInterpreterDirectory$\Scripts\pip.exe" />
+      <option name="PARAMETERS" value="freeze &gt;requirements.txt" />
       <option name="WORKING_DIRECTORY" value="$FileDir$" />
     </exec>
   </tool>
