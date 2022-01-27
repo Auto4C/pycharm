@@ -1,43 +1,8 @@
 <toolSet name="External Tools">
-  <tool name="pyinstaller-debug" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
-    <exec>
-      <option name="COMMAND" value="$PyInterpreterDirectory$\pyinstaller.exe" />
-      <option name="PARAMETERS" value="-F -y -p $FileDir$ $FileName$" />
-      <option name="WORKING_DIRECTORY" value="$FileDir$" />
-    </exec>
-  </tool>
-  <tool name="pyinstaller" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
-    <exec>
-      <option name="COMMAND" value="$PyInterpreterDirectory$\pyinstaller.exe" />
-      <option name="PARAMETERS" value="-F -y -w -p $FileDir$ $FileName$" />
-      <option name="WORKING_DIRECTORY" value="$FileDir$" />
-    </exec>
-  </tool>
-  <tool name="pyinstaller-ico-v" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
-    <exec>
-      <option name="COMMAND" value="$PyInterpreterDirectory$\Scripts\pyinstaller.exe" />
-      <option name="PARAMETERS" value="-F -y -w -i $FileDir$\ico.ico -p $FileDir$ $FileName$" />
-      <option name="WORKING_DIRECTORY" value="$FileDir$" />
-    </exec>
-  </tool>
-  <tool name="pyinstaller-ico-d" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
-    <exec>
-      <option name="COMMAND" value="$PyInterpreterDirectory$\Scripts\pyinstaller.exe" />
-      <option name="PARAMETERS" value="-y -w -i $FileDir$\ico.ico -p $FileDir$ $FileName$" />
-      <option name="WORKING_DIRECTORY" value="$FileDir$" />
-    </exec>
-  </tool>
   <tool name="pyui" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="$PyInterpreterDirectory$\python.exe" />
       <option name="PARAMETERS" value="-m PyQt5.uic.pyuic -x $FileName$ -o $FileNameWithoutExtension$.py" />
-      <option name="WORKING_DIRECTORY" value="$FileDir$" />
-    </exec>
-  </tool>
-  <tool name="pyinstaller-local" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
-    <exec>
-      <option name="COMMAND" value="$PyInterpreterDirectory$\Scripts\pyinstaller.exe" />
-      <option name="PARAMETERS" value="-y -w -p $FileDir$ $FileName$" />
       <option name="WORKING_DIRECTORY" value="$FileDir$" />
     </exec>
   </tool>
@@ -62,105 +27,126 @@
       <option name="WORKING_DIRECTORY" value="$FileDir$" />
     </exec>
   </tool>
-  <tool name="pyinstaller-local-F" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="local-F" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="$PyInterpreterDirectory$\Scripts\pyinstaller.exe" />
       <option name="PARAMETERS" value="-F -y -w -p $FileDir$ $FileName$" />
       <option name="WORKING_DIRECTORY" value="$FileDir$" />
     </exec>
   </tool>
-  <tool name="pyinstaller-local-F-Debug" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="local-F-debug" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="$PyInterpreterDirectory$\Scripts\pyinstaller.exe" />
       <option name="PARAMETERS" value="-F -y -p $FileDir$ $FileName$" />
       <option name="WORKING_DIRECTORY" value="$FileDir$" />
     </exec>
   </tool>
-  <tool name="pyinstaller-local-F-Debug-ico" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="local-F-debug-ico" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="$PyInterpreterDirectory$\Scripts\pyinstaller.exe" />
       <option name="PARAMETERS" value="-F -y -i $FileDir$\ico.ico -p $FileDir$ $FileName$" />
       <option name="WORKING_DIRECTORY" value="$FileDir$" />
     </exec>
   </tool>
-  <tool name="pyinstaller-local-requirements" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="local-requirements" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="$PyInterpreterDirectory$\Scripts\pip.exe" />
       <option name="PARAMETERS" value="freeze &gt;requirements.txt" />
       <option name="WORKING_DIRECTORY" value="$FileDir$" />
     </exec>
   </tool>
-  <tool name="pyinstaller-local-D-Debug-ico" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
-    <exec>
-      <option name="COMMAND" value="$PyInterpreterDirectory$\Scripts\pyinstaller.exe" />
-      <option name="PARAMETERS" value=" -y -i $FileDir$\ico.ico -p $FileDir$ $FileName$" />
-      <option name="WORKING_DIRECTORY" value="$FileDir$" />
-    </exec>
-  </tool>
-  <tool name="pyinstaller-local-F-ico" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="local-F-ico" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="$PyInterpreterDirectory$\Scripts\pyinstaller.exe" />
       <option name="PARAMETERS" value="-F -w -y -i $FileDir$\ico.ico -p $FileDir$ $FileName$" />
       <option name="WORKING_DIRECTORY" value="$FileDir$" />
     </exec>
   </tool>
-  <tool name="pyinstaller-local-F-Debug-ico-uac" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="local-F-debug-ico-uac" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="$PyInterpreterDirectory$\Scripts\pyinstaller.exe" />
       <option name="PARAMETERS" value="--uac-admin -F -y -i $FileDir$\ico.ico -p $FileDir$ $FileName$" />
       <option name="WORKING_DIRECTORY" value="$FileDir$" />
     </exec>
   </tool>
-  <tool name="pyinstaller-local-D-ico" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="local-D" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$PyInterpreterDirectory$\Scripts\pyinstaller.exe" />
+      <option name="PARAMETERS" value="-y -w -p $FileDir$ $FileName$" />
+      <option name="WORKING_DIRECTORY" value="$FileDir$" />
+    </exec>
+  </tool>
+  <tool name="local-D-debug-ico" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$PyInterpreterDirectory$\Scripts\pyinstaller.exe" />
+      <option name="PARAMETERS" value=" -y -i $FileDir$\ico.ico -p $FileDir$ $FileName$" />
+      <option name="WORKING_DIRECTORY" value="$FileDir$" />
+    </exec>
+  </tool>
+  <tool name="local-D-ico" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="$PyInterpreterDirectory$\Scripts\pyinstaller.exe" />
       <option name="PARAMETERS" value="-w -y -i $FileDir$\ico.ico -p $FileDir$ $FileName$" />
       <option name="WORKING_DIRECTORY" value="$FileDir$" />
     </exec>
   </tool>
-  <tool name="pyinstaller-local-D-ico-uac" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="local-D-ico-uac" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="$PyInterpreterDirectory$\Scripts\pyinstaller.exe" />
       <option name="PARAMETERS" value="--uac-admin -w -y -i $FileDir$\ico.ico -p $FileDir$ $FileName$" />
       <option name="WORKING_DIRECTORY" value="$FileDir$" />
     </exec>
   </tool>
-  <tool name="venv-local-F" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="venv-F" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="$PyInterpreterDirectory$\pyinstaller.exe" />
       <option name="PARAMETERS" value="-F -w -y -p $FileDir$ $FileName$" />
       <option name="WORKING_DIRECTORY" value="$FileDir$" />
     </exec>
   </tool>
-  <tool name="venv-local-F-ico" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="venv-F-debug" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$PyInterpreterDirectory$\pyinstaller.exe" />
+      <option name="PARAMETERS" value="-F -y -p $FileDir$ $FileName$" />
+      <option name="WORKING_DIRECTORY" value="$FileDir$" />
+    </exec>
+  </tool>
+  <tool name="venv-F-ico" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="$PyInterpreterDirectory$\pyinstaller.exe" />
       <option name="PARAMETERS" value="-F -w -y -i $FileDir$\ico.ico -p $FileDir$ $FileName$" />
       <option name="WORKING_DIRECTORY" value="$FileDir$" />
     </exec>
   </tool>
-  <tool name="venv-local-F-ico-debug" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="venv-F-ico-debug" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="$PyInterpreterDirectory$\pyinstaller.exe" />
       <option name="PARAMETERS" value="-F -y -i $FileDir$\ico.ico -p $FileDir$ $FileName$" />
       <option name="WORKING_DIRECTORY" value="$FileDir$" />
     </exec>
   </tool>
-  <tool name="venv-local-D" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="venv-requirements" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$PyInterpreterDirectory$\pip.exe" />
+      <option name="PARAMETERS" value="freeze &gt;requirements.txt" />
+      <option name="WORKING_DIRECTORY" value="$FileDir$" />
+    </exec>
+  </tool>
+  <tool name="venv-D" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="$PyInterpreterDirectory$\pyinstaller.exe" />
       <option name="PARAMETERS" value="-w -y -p $FileDir$ $FileName$" />
       <option name="WORKING_DIRECTORY" value="$FileDir$" />
     </exec>
   </tool>
-  <tool name="venv-local-D-ico-uac" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="venv-D-ico-uac" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="$PyInterpreterDirectory$\pyinstaller.exe" />
       <option name="PARAMETERS" value="--uac-admin -w -y -i $FileDir$\ico.ico -p $FileDir$ $FileName$" />
       <option name="WORKING_DIRECTORY" value="$FileDir$" />
     </exec>
   </tool>
-  <tool name="venv-local-D-ico-uac-debug" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+  <tool name="venv-D-ico-uac-debug" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="$PyInterpreterDirectory$\pyinstaller.exe" />
       <option name="PARAMETERS" value="--uac-admin -y -i $FileDir$\ico.ico -p $FileDir$ $FileName$" />
