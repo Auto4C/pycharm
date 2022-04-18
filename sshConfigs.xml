@@ -1,0 +1,7 @@
+<application>
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="raspberrypi" id="1fe6778a-015d-4bf1-9b72-8fe9b77d64a7" port="22" nameFormat="DESCRIPTIVE" username="pi" useOpenSSHConfig="false" />
+    </configs>
+  </component>
+</application>
