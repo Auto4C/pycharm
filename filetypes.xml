@@ -14,6 +14,7 @@
       <mapping ext="pyx" type="PLAIN_TEXT" />
       <mapping ext="npy" type="PLAIN_TEXT" />
       <mapping ext="spec" type="PLAIN_TEXT" />
+      <mapping ext="tlb" type="PLAIN_TEXT" />
       <mapping ext="out" type="Python" />
       <removed_mapping ext="pyx" approved="true" type="Cython" />
       <mapping ext="txt" type="requirements-pro.txt" />
