@@ -6,8 +6,13 @@
           <option name="url" value="http://localhost:3000" />
           <option name="userName" value="chj" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@192.168.0.101:sei/TerminalSystemDepartment/intelligentmanufacturinggroup/routercontrol.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
+    <option name="cloneParentDir" value="E:\SEI" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="COLUMN_ID_ORDER">
