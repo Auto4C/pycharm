@@ -10,6 +10,10 @@
           <option name="url" value="git@192.168.0.101:sei/TerminalSystemDepartment/intelligentmanufacturinggroup/routercontrol.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@192.168.0.101:sei/TerminalSystemDepartment/intelligentmanufacturinggroup/adbtool.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\GitLab" />
