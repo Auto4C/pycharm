@@ -44,7 +44,7 @@
   <tool name="local-F-debug-ico" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="$PyInterpreterDirectory$\Scripts\pyinstaller.exe" />
-      <option name="PARAMETERS" value="-F -y -i $FileDir$\ico.ico -p $FileDir$ $FileName$" />
+      <option name="PARAMETERS" value="-F -y -i $FileDir$\ico.ico --key ChenHuaJun -p $FileDir$ $FileName$" />
       <option name="WORKING_DIRECTORY" value="$FileDir$" />
     </exec>
   </tool>
