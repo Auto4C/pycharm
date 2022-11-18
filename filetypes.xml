@@ -6,6 +6,7 @@
       <mapping pattern="SEI_Aging_Test_SEI700" type="AUTO_DETECTED" />
       <mapping pattern="SEI_Aging_Test_GZ2011022-SCV" type="AUTO_DETECTED" />
       <mapping pattern="UpdataLog" type="AUTO_DETECTED" />
+      <mapping pattern="4KDetect" type="AUTO_DETECTED" />
       <mapping pattern="REQUESTED" type="AUTO_DETECTED" />
       <mapping pattern="dev" type="JSON" />
       <mapping pattern="CoupleCmd" type="JSON" />
