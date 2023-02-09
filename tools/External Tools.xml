@@ -51,7 +51,7 @@
   <tool name="local-requirements" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="$PyInterpreterDirectory$\Scripts\pip.exe" />
-      <option name="PARAMETERS" value="freeze &gt;requirements.txt" />
+      <option name="PARAMETERS" value="freeze &gt;$FileDir$\requirements.txt" />
       <option name="WORKING_DIRECTORY" value="$FileDir$" />
     </exec>
   </tool>
@@ -135,7 +135,7 @@
   <tool name="venv-requirements" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="$PyInterpreterDirectory$\pip.exe" />
-      <option name="PARAMETERS" value="freeze &gt;requirements.txt" />
+      <option name="PARAMETERS" value="freeze &gt; requirements.txt" />
       <option name="WORKING_DIRECTORY" value="$FileDir$" />
     </exec>
   </tool>
